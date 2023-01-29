@@ -1,6 +1,6 @@
 body {
     /* background-image: url("./img/voidgate.jpg"); */
-    background-image: url("./img/HouseCount.png");
+    background-image: url("./img/HouseCount.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -82,12 +82,16 @@ button {
     background-color: lightcoral;
    
    
+   
     
 }
 
 #increment-btn:hover{
     /* background-color: lightcoral; */
-    background: none;
+    /* background: none;
+    border: 1px solid lightcoral; */
+    background-color: white;
+    color: lightcoral;
     
 }
 
@@ -96,22 +100,37 @@ button {
     /* background: none; */
     background-color: lightcoral;
    
+    
+   
 }
 
 #save-btn:hover{
     /* background-color: lightcoral; */
+/* 
     background: none;
+    border: 1px solid lightcoral; */
+
+    background-color: white;
+    color: lightcoral;
+    
     
 }
 
 #reset-btn{
     /* background-color: skyblue; */
     background-color: lightcoral;
+
 }
 
 #reset-btn:hover {
-    
-    background: none;
+   
+    /* background: none;
+    border: 1px solid lightcoral; 
+     */
+
+     background-color: white;
+     color: lightcoral;
+     
     
 }
 
