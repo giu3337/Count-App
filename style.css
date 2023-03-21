@@ -54,7 +54,7 @@ p{
     margin-top: 40px;
     font-size: 18px;
     text-decoration: 2px overline;
-    color: black; 
+    color: whitesmoke; 
    
 }
 
@@ -84,6 +84,15 @@ button {
    
    
     
+}
+
+#decrement-btn {
+    background-color: lightcoral;
+}
+
+#decrement-btn:hover{
+    background-color: white;
+    color: lightcoral;
 }
 
 #increment-btn:hover{

@@ -1,28 +1,40 @@
-// Ship Counter
+// People Counter
 
 
-let countEl = document.getElementById("count-el")
-let saveEl = document.getElementById("save-el")
+const countEl = document.getElementById("count-el")
+const saveEl = document.getElementById("save-el")
+const incrementBtn = document.getElementById("increment-btn")
+const decrementBtn = document.getElementById("decrement-btn")
+const saveBtn = document.getElementById('save-btn')
+const resetBtn = document.getElementById("reset-btn")
+
+
 let count = 0; 
 
-function increment() {
+incrementBtn.addEventListener('click', function () {
     count += 1; 
     countEl.textContent = count; 
-    
-}
+})
 
-function save() {
+decrementBtn.addEventListener('click',function () {
+    if (count >= 1) {
+        count -= 1
+    countEl.textContent = count; 
+    }
+})
+
+
+saveBtn.addEventListener('click', function () {
     let saveEntries = count + " - "
     saveEl.textContent += " " + saveEntries; 
     countEl.textContent = count; 
     count = 0; 
     countEl.textContent = count += 0 
-    
-}
+})
 
-function reset() {
+
+resetBtn.addEventListener('click',function () {
     saveEl.textContent = "Previous Entries: "
     countEl.textContent = count += 0; 
-}
-
+})
 
