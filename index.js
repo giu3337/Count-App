@@ -29,12 +29,12 @@ saveBtn.addEventListener('click', function () {
     saveEl.textContent += " " + saveEntries; 
     countEl.textContent = count; 
     count = 0; 
-    countEl.textContent = count += 0 
+    countEl.textContent = 0 
 })
 
 
 resetBtn.addEventListener('click',function () {
     saveEl.textContent = "Previous Entries: "
-    countEl.textContent = count += 0; 
+    countEl.textContent = 0
 })
 
